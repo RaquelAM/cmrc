@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <title>CMRC</title>
+    <link rel="canonical"href="http://cmrc.io/avisodeprivacidad.html" />
+    <link href="img/favicon.png" rel="shortcut icon">
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="slideMenu/css/component.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-75135558-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <style type="text/css">
+      #cont{
+        background: white;
+      }
+      #showLeft{
+        display: none;
+      }
+      #info_web{
+        display: block;
+      }
+      #info_movil{
+        display: none;
+      }
+      header{
+        width: 100%;
+        height: auto;
+        background-color: white;
+      }
+      .header{
+        width: 100%;
+        height: 80px;
+        background: white;
+        padding: 20px;
+        max-width: 1280px;
+        margin: auto
+      }
+      .header img{
+        height: 40px;
+      }
+      .header nav{
+        display: inline-block;
+        line-height: 48px;
+        float: right;
+      }
+      .header nav a{
+        margin: 0 10px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        line-height: 20px;
+        text-decoration: none;
+      }
+      a.active::after{
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: .1vw;
+        width: 100%;
+        height: 0px;
+        border-top: 2px solid #28AAE4;
+        -webkit-transition-duration: .35s;
+        -moz-transition-duration: .35s;
+        transition-duration: .35s;
+      }
+      .aviso{
+          height: 300px;
+          width: 100%;
+        }
+        .aviso div{
+          margin-top: 70px;
+          color: white;
+          font-size: 45px;
+          font-weight: bold;
+          text-align: center;
+        }
+        .aviso p{
+          font-size: 16px;
+          color: white;
+          margin-top: 25px;
+        }
+        .aviso p.col-1{
+          margin: 35px auto 0;
+          color: white;
+          font-size: 30px;
+        }
+        #aviso span{
+          /*font-size: 24px;*/
+          font-weight: bold;
+          color: #6C6364;
+        }
+        #aviso a{
+          color: #02b0ef;
+        }
+        #aviso ul, #aviso ol{
+          margin-left: 35px;
+        }
+        #aviso ul li, #aviso ol li{
+          padding: 5px 0;
+          color: #6C6364;
+        }
+      @media screen and (max-width: 768px) {
+          #showLeft{
+            display: block !important;
+          }
+          #info_web{
+            display: none !important;
+          }
+          #info_movil{
+            display: block !important;
+          }
+          #info_movil .icono{
+            display: table-cell;
+          }
+          #showLeft img{
+            float: right !important;
+            width: 30px;
+            height: 19px;
+            margin-top: 10px;
+          }
+          .header{
+            height: 47px;
+            padding: 4px 20px;
+            position: fixed;
+            border-bottom: 1px solid gray;
+            z-index: 100;
+          }
+          .menu{
+            border-right: 1px solid gray;
+          }
+          .menu nav{
+            position: relative;
+            text-align: center;
+          }
+          .header nav{
+            display: none !important;
+          }
+          .header img{
+            float: left;
+            height: 25px;
+            margin-top: 7px;
+          }
+          .cbp-spmenu{
+            background: white !important;
+          }
+          .cbp-spmenu div{
+            font-size: 1.7em !important
+          }.cbp-spmenu a{
+            font-size: 1.5em !important;
+          }
+          .cbp-spmenu a, .cbp-spmenu div {
+            width: 100%;
+            height: 55px;
+            text-decoration: none;
+            color: #28AAE4 !important;
+            border-bottom: 2px solid #28AAE4 !important;
+            display: inline-block !important;
+            position: relative;
+            padding: 0 0 0px 20px !important;
+            margin: auto;
+            line-height: 55px;
+            text-align: left;
+          }
+          .cbp-spmenu a.active{
+            background: #28AAE4;
+            color: white !important;
+          }
+          .opacity{
+            opacity: .2;
+          }
+        }
+        @media screen and (max-width: 500px){
+            .aviso p.col-1{
+                margin: auto;
+            }
+        }
+        @media screen and (max-width: 330px){
+            .aviso div{
+                margin-top: 30px;
+            }
+            .aviso p{
+                margin-top: 20px;
+            }
+        }
+    </style>
+  </head>
+  <body class="cbp-spmenu-push">
+    <header>
+      <div class="header">
+        <div id="showLeft" class="left">
+          <img src="img/menu.png" onclick="ga('send', 'event', 'barra', 'click', 'hamburguesa');">
+        </div>
+        <a href="home.html">
+          <img src="img/CMRC-Logo-primario.png" onclick="ga('send', 'event', 'barra', 'click', 'home');">
+        </a>
+        <nav>
+          <a href="productos.html" onclick="ga('send', 'event', 'barra', 'click', 'productos');">Productos</a>
+          <a href="servicios.html" onclick="ga('send', 'event', 'barra', 'click', 'servicios');">Servicios</a>
+          <a href="partners.html" onclick="ga('send', 'event', 'barra', 'click', 'partners');">Partners</a>
+          <a href="contacto.html" onclick="ga('send', 'event', 'barra', 'click', 'contacto');">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <div id="cbp-spmenu-s1" class="menu cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+      <nav>
+        <div>Menú</div>
+        <a href="productos.html" onclick="ga('send', 'event', 'menu movile', 'click', 'productos');">Productos</a>
+        <a href="servicios.html" onclick="ga('send', 'event', 'menu movile', 'click', 'servicios');">Servicios</a>
+        <a href="partners.html" onclick="ga('send', 'event', 'menu movile', 'click', 'partners');">Partners</a>
+        <a href="contacto.html" onclick="ga('send', 'event', 'menu movile', 'click', 'contacto');">Contacto</a>
+      </nav>
+    </div>
+    <div id="cont">
+      <div class="bkgnd_blue aviso">
+        <div>
+          Aviso de privacidad<br>
+          <p>Última actualización: 18 de mayo de 2016.</p>
+        </div>
+        <p class="col-1">Integral</p>
+      </div>
+      <div class="col-1 bkgnd_white" id="aviso">
+        <span>I. Identidad y domicilio</span><br><br>
+        CM RC IO, SAPI DE CV en adelante (“CMRCIO”) con domicilio en AV. Ámsterdam 173 Bis Interior 3, Colonia Hipódromo Condesa, Delegación Cuauhtémoc, Ciudad de México. C.P. 06100, hace de su conocimiento lo siguiente:<br><br>
+        <span>II. Datos personales y datos personales sensibles tratados</span><br><br>
+        Para llevar a cabo los servicios que presta CMRCIO se requiere que usted proporcione ciertos datos personales, a continuación se describen las categorías a las que pertenecen estos Datos:<br><br>
+        <ul>
+            <li>identificación</li>
+            <li>contacto</li>
+            <li>domiciliarios</li>
+            <li>laborales</li>
+            <li>referencias o representación</li>
+            <li>profesionales</li>
+            <li>patrimoniales o financieros</li>
+        </ul>
+        <br>
+        Los de identificación y personales que usted nos proporcione para el caso de señalar referencia o representación, usted reconoce y asume la obligación de obtener y/o contar con el consentimiento de dichas personas al momento de proporcionarnos tal información, el tratamiento se sujetará a los fines establecidos en el presente aviso de privacidad.
+        <br><br>
+        CMRCIO podría obtener datos personales por diversas tecnologías (Entorno Digital) como parte de un proceso de tratamiento sin intervención humana valorativa.
+        <br><br>
+        Los datos personales considerados sensibles no son requeridos ni tratados por CMRCIO.
+        <br><br>
+        <span>III. Finalidades Primarias</span><br><br>
+        Para brindarle el servicio que solicita, CMRCIO tratará sus datos personales que recabamos para las siguientes finalidades primarias y necesarias:<br><br>
+        <ul>
+            <li>confirmar y verificar su identidad</li>
+            <li>confirmar las características de su producto</li>
+            <li>comunicarle el avance del desarrollo de su producto</li>
+            <li>confirmar las referencias o representantes que designe</li>
+            <li>confirmar la designación de personal de verificación y supervisión</li>
+            <li>la prestación de los servicios de capacitación y soporte</li>
+            <li>la entrega de su producto</li>
+            <li>confirmación de adelantos y pago</li>
+            <li>realizar alguna o todas las actividades necesarias para el desarrollo y cumplimiento de las obligaciones que se originen y deriven de la relación contractual</li>
+        </ul>
+        <br>
+        <span>IV. Finalidades Secundarias</span><br><br>
+        <ul>
+            <li>Informarle de nuevos productos, bienes, servicios, promociones y/u ofertas, asi como de otras marcas y/o empresas afiliadas y/o subsidiarias de CMRCIO, incluyendo el envío de comunicaciones  a través de correos electrónicos, llamadas telefónicas, mensajes cortos  y demás medios de comunicación físicos y/o electrónicos.</li>
+            <li>Cualquier otra actividad tendiente a promover, mantener, mejorar y evaluar los Servicios.</li>
+        </ul>
+        <br>
+        Usted puede manifestar su negativa para el tratamiento de sus datos personales con relación a las finalidades secundarias, mediante el envío de un correo expresando su negativa a la dirección electrónico <a href="mailto:admin@cmrc.io">admin@cmrc.io</a>.
+        <br><br>
+        <span>V. Transferencias</span><br><br>
+        La transferencia podrá ser efectuada a sociedades subsidiarias o afiliadas bajo el control común o colaboración de CMRCIO, o a cualquier sociedad del mismo grupo, que opere bajo los mismos procesos y políticas internas o a cualquier adquirente de la empresa. Así como con los empleados, contratistas**, prestadores de servicio** y asesores** de CMRCIO, quienes tratarán sus datos personales por cuenta de CMRCIO.
+        <br><br>
+        En caso de ser requeridos se podrán compartir sus datos personales con autoridades gubernamentales en los Estados Unidos Mexicanos o en el extranjero. Salvo esos casos, CMRCIO no compartirá o transferirá sus datos personales a terceros reservándose la transferencia para alguno de los supuestos exigidos por la ley.
+        <br><br>
+        Le informamos que para las transferencias indicadas con dos asteriscos (**) requerimos obtener su consentimiento. Si usted no manifiesta su negativa para dichas transferencias entenderemos que nos ha otorgado su consentimiento.
+        <br><br>
+        Si usted no desea que CMRCIO transfiera sus datos personales para aquellas transferencias para las cuales es necesario su consentimiento le pedimos que envíe un correo electrónico a la dirección <a href="mailto:admin@cmrc.io?Subject=Transferencias">admin@cmrc.io</a> con el asunto “Transferencias”. Los requisitos para acreditar su identidad, así como el procedimiento para atender su solicitud se regirán por los mismos criterios señalados en el apartado Medios y procedimiento para ejercer los derechos ARCO.
+        <br><br>
+        <span>VI. Limitación de uso de Datos</span><br><br>
+        Con objeto de que usted pueda limitar el uso y divulgación de su información personal, enviando su solicitud a la dirección <a href="mailto:admin@cmrc.io?Subject=Limitar%20Uso">admin@cmrc.io</a> con el asunto “Limitar Uso”. En caso de que su Solicitud sea procedente se le registrará en el listado de exclusión propio de CMRCIO.
+        <br><br>
+        <span>VII. Medios y procedimiento para ejercer los derechos ARCO</span><br><br>
+        Usted tiene derecho a conocer qué datos personales tenemos de usted, para qué los utilizamos y las condiciones del uso que les damos (Acceso). Asimismo, es su derecho solicitar la corrección de su información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando considere que la misma no está siendo utilizada conforme a los principios, deberes y obligaciones previstas en la normativa (Cancelación); así como oponerse al uso de sus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.
+        <br><br>
+        Para el ejercicio de cualquiera de los derechos ARCO, usted deberá enviar un correo electrónico a <a href="mailto:admin@cmrc.io">admin@cmrc.io</a> con el asunto “Derechos ARCO”
+        <br><br>
+        La solicitud deberá contener y acompañar lo siguiente:
+        <br><br>
+        <ol>
+            <li>nombre del titular</li>
+            <li>número telefónico con clave lada</li>
+            <li>dirección de correo electrónico donde se pretenda recibir la respuesta</li>
+            <li>identificación (credencial del Instituto Federal Electoral, licencia de conducir, pasaporte, cartilla del Servicio Militar Nacional, cédula profesional, credencial de afiliación del IMSS, credencial de afiliación al ISSSTE, documento migratorio que constate la legal estancia del extranjero en el país)</li>
+            <li>en su caso el documento que acredite la representación que ostenta</li>
+            <li>descripción clara y precisa de los datos personales respecto de los que se busca ejercer alguno de los derechos antes mencionados, en el caso de solicitudes de rectificación de datos personales, el solicitante deberá indicar, las modificaciones a realizarse y aportar la documentación que sustente su petición</li>
+            <li>cualquier otro elemento o documento que facilite la localización de los datos personales</li>
+        </ol>
+        <br>
+        Todos los documentos deberán adjuntarse en un Formato JPG, PDF o DOCX.
+        <br><br>
+        En caso de que la información proporcionada en la Solicitud sea errónea o insuficiente, o bien, no se acompañen los documentos de acreditación correspondientes, se le requerirá o informará dentro de los 5 (Cinco) días hábiles siguientes a la recepción de la solicitud, a efecto de que dentro los 10 (Diez) días hábiles usted atienda el requerimiento, contados a partir del día siguiente en que lo haya recibido. La solicitud se tendrá por recibida hasta que satisfaga el requerimiento, de no dar respuesta en dicho plazo, se tendrá por no presentada la solicitud correspondiente.
+        <br><br>
+        La determinación adoptada, se le comunicará en un plazo máximo de 20 (veinte) días hábiles contados desde la fecha en que se recibió la solicitud, a efecto de que, si resulta procedente, haga efectiva la misma dentro de los 15 (quince) días hábiles siguientes a que se comunique la respuesta. La respuesta se dará vía electrónica a la dirección de correo electrónico que se especifique en la Solicitud, de no especificar ninguna se dará respuesta a la dirección de correo electrónico de procedencia.
+        <br><br>
+        Tratándose de solicitudes de acceso a datos personales, procederá la entrega previa acreditación de la identidad del solicitante o representante legal.
+        <br><br>
+        Con relación al procedimiento y requisitos para el ejercicio de sus derechos ARCO, le informamos lo siguiente:
+        <br><br>
+        Los datos de contacto de la persona o departamento de datos personales, que está a cargo de dar trámite a las solicitudes de derechos ARCO, son los siguientes:
+        <br><br>
+        <ul>
+            <li>encargado de Datos Personales: Dpto. Jurídico</li>
+            <li>dirección: Av. Ámsterdam 173 Bis interior 3, Colonia Hipódromo Condesa, Delegación Cuauhtémoc, Ciudad de México. CP 06100</li>
+            <li>correo electrónico: <a href="mailto:admin@cmrc.io">admin@cmrc.io.</a></li>
+            <li>número telefónico: (55) 6552 – 8694 y (55) 6552 – 8696</li>
+        </ul>
+        <br><br>
+        <span>MEDIOS PARA PONER A DISPOSICIÓN LA INFORMACIÓN</span><br><br>
+        Acreditada su personalidad y en caso de ser procedente su solicitud de ejercicio de derechos ARCO, usted podrá recibir gratuitamente un informe por correo electrónico indicando la forma en que se dio cumplimiento a su solicitud. En caso de que requiera la información en un medio material, como, por ejemplo, impreso, en CD, en USB u otro medio, usted deberá pagar el costo de materialización o reproducción, que en ningún caso será superior al que tenga en cualquier sitio que preste el servicio de reproducción o materialización.
+        <br><br>
+        <span>VIII. Revocación del consentimiento</span><br><br>
+        Usted puede revocar el consentimiento que, en su caso, nos haya otorgado para el tratamiento de sus datos personales. Sin embargo, es importante que tenga en cuenta que no en todos los casos podremos atender su solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando sus datos personales. Asimismo, usted deberá considerar que para ciertos fines, la revocación de su consentimiento implicará que no le podamos seguir prestando el servicio que nos solicitó, o la conclusión de su relación con nosotros.
+        <br><br>
+        Para revocar su consentimiento usted deberá enviar un correo electrónico a <a href="mailto:admin@cmrc.io">admin@cmrc.io</a> con el asunto “Revocación” siguiendo los mismos requisitos y procedimiento que para el ejercicio de los derechos ARCO.
+        <br><br>
+        <span>IX. Aviso sobre cookies</span><br><br>
+        CMRCIO utiliza varias tecnologías para mejorar la eficiencia de sus sitios web, incluyendo su experiencia cuando navega por dichos sitios. Entre estas tecnologías se incluye el uso de cookies. Las cookies son pequeñas cantidades de información que se almacenan en el navegador utilizado por cada usuario para que el servidor recuerde cierta información que posteriormente pueda utilizar. Esta información permite identificarle y guardar sus preferencias personales para brindarle una mejor experiencia de navegación. Le recordamos que usted puede deshabilitar o ajustar el uso de cookies siguiendo los procedimientos del navegador de internet que utiliza.
+        <br><br>
+        <span>X. Cambios en el Aviso de Privacidad</span><br><br>
+        El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos requerimientos legales; de nuestras propias necesidades por los productos o servicios que ofrecemos; de nuestras prácticas de privacidad; de cambios en nuestro modelo de negocio, o por otras causas.
+        <br><br>
+        Nos comprometemos a mantenerlo informado sobre los cambios que pueda sufrir el presente aviso de privacidad, a través de nuestra página de internet <a href="home.html">cmrc.io</a>.
+      </div>
+    </div>
+    <footer>
+      <div class="footer-1">
+        <nav>
+          <a href="productos.html" onclick="ga('send', 'event', 'footer', 'click', 'productos');">Productos</a>
+          <a href="servicios.html" onclick="ga('send', 'event', 'footer', 'click', 'servicios');">Servicios</a>
+          <a href="partners.html" onclick="ga('send', 'event', 'footer', 'click', 'partners');">Partners</a>
+          <a href="contacto.html" onclick="ga('send', 'event', 'footer', 'click', 'contacto');">Contacto</a>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com/cmrc.io/?fref=ts" target= "_blank" onclick="ga('send', 'event', 'footer', 'click', 'facebook');">
+            <img src="img/facebook_logo_white.png">
+          </a>
+          <a href="https://www.linkedin.com/company/10113107?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10113107%2Cidx%3A1-1-1%2CtarId%3A1465335891107%2Ctas%3Acmrc.IO" target= "_blank" onclick="ga('send', 'event', 'footer', 'click', 'linkedin');">
+            <img src="img/linkedin_logo_white.png"> 
+          </a>
+          <a href="https://vimeo.com/user52371251" target="_blank" onclick="ga('send', 'event', 'footer', 'click', 'vimeo');">
+            <img src="img/vimeo_logo_white.png">
+          </a>
+        </div>
+      </div>
+      <div class="footer-2">
+          Av. Amsterdam 173, int. 3 Hipódromo Condesa, Ciudad de México (55) 6389-0423 / (55) 6819-7071
+          <a href="avisodeprivacidad.html" class="right" onclick="ga('send', 'event', 'footer', 'click', 'aviso privacidad');">Aviso de privacidad</a>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script src="slideMenu/js/classie.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <meta name="description" content="LigthSpeed retail es el punto de venta que te ayudará a manejar mejor tu negocio, crea órdenes especiales, promociones automatizadas, visualiza tu nivel de inventario.">
+    <title>CMRC</title>
+    <link rel="canonical"href="http://cmrc.io/punto-de-venta-lightspeed-retail.html" />
+    <link href="img/favicon.png" rel="shortcut icon">
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="slideMenu/css/component.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-75135558-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <style type="text/css">
+      #cont{
+        background: white;
+      }
+      #showLeft{
+        display: none;
+      }
+      #info_web{
+        display: block;
+      }
+      #info_movil{
+        display: none;
+      }
+      header{
+        width: 100%;
+        height: auto;
+        background-color: white;
+      }
+      .header{
+        width: 100%;
+        height: 80px;
+        background: white;
+        padding: 20px;
+        max-width: 1280px;
+        margin: auto
+      }
+      .header img{
+        height: 40px;
+      }
+      .header nav{
+        display: inline-block;
+        line-height: 48px;
+        float: right;
+      }
+      .header nav a{
+        margin: 0 10px;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        position: relative;
+        line-height: 20px;
+        text-decoration: none;
+      }
+      a.active::after{
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: .1vw;
+        width: 100%;
+        height: 0px;
+        border-top: 2px solid #28AAE4;
+        -webkit-transition-duration: .35s;
+        -moz-transition-duration: .35s;
+        transition-duration: .35s;
+      }
+      h1, .h1{
+        font-size: 40px !important;
+        font-weight: bold !important;
+        color: white !important;
+      }
+      .bkgnd_img{
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+      }
+      .bkgnd_img img{
+        position: absolute;
+        bottom: -9999px;
+        right: -9999px;
+        left: -9999px;
+        top: -9999px;
+        z-index: -5004;
+        margin: auto;
+        min-height: 600px;
+        min-width: 100%;
+      }
+      .slider_wrap{
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+      .txt_header{
+        display: table;
+        width: 60%;
+        height: 100%;
+      }
+      .txt_header div{
+        padding-left: 25%;
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .txt_header h1,.txt_header h2{
+        background: url(img/background_banner.png);
+        padding: 15px 15px 0;
+      }
+      .txt_header p, .txt_header h2{
+        color: white;
+        font-size: 20px;
+        font-weight: normal;
+        background: url(img/background_banner.png);
+        padding: 0 15px 15px;
+      }
+      @media screen and (max-width: 768px) {
+          #showLeft{
+            display: block !important;
+          }
+          #info_web{
+            display: none !important;
+          }
+          #info_movil{
+            display: block !important;
+          }
+          #info_movil .icono{
+            display: table-cell;
+          }
+          #showLeft img{
+            float: right !important;
+            width: 30px;
+            height: 19px;
+            margin-top: 10px;
+          }
+          .header{
+            height: 47px;
+            padding: 4px 20px;
+            position: fixed;
+            border-bottom: 1px solid gray;
+            z-index: 100;
+          }
+          .menu{
+            border-right: 1px solid gray;
+          }
+          .menu nav{
+            position: relative;
+            text-align: center;
+          }
+          .header nav{
+            display: none !important;
+          }
+          .header img{
+            float: left;
+            height: 25px;
+            margin-top: 7px;
+          }
+          .cbp-spmenu{
+            background: white !important;
+          }
+          .cbp-spmenu div{
+            font-size: 1.7em !important
+          }.cbp-spmenu a{
+            font-size: 1.5em !important;
+          }
+          .cbp-spmenu a, .cbp-spmenu div {
+            width: 100%;
+            height: 55px;
+            text-decoration: none;
+            color: #28AAE4 !important;
+            border-bottom: 2px solid #28AAE4 !important;
+            display: inline-block !important;
+            position: relative;
+            padding: 0 0 0px 20px !important;
+            margin: auto;
+            line-height: 55px;
+            text-align: left;
+          }
+          .cbp-spmenu a.active{
+            background: #28AAE4;
+            color: white !important;
+          }
+          .opacity{
+            opacity: .2;
+          }
+          .txt_header{
+            width: 100%;
+          }
+          .txt_header div{
+            padding: 20px;
+            padding-right: 20px !important;
+            vertical-align: bottom;
+            padding-left: 20px !important;
+          }
+          .txt_header h1, .txt_header .h1{
+            font-size: 25px !important;
+            font-weight: normal !important;
+            padding: 15px !important;
+          }
+          .txt_header p, .txt_header h2{
+            display: none;
+          }
+          .bkgnd_home{
+            background-position-y: 0;
+          }
+          .bkgnd_img{
+            height: 400px;
+          }
+          .bkgnd_img img{
+            min-height: 400px;
+            height: 400px;
+          }
+        }
+        @media screen and (max-width: 500px){
+          .bkgnd_LSretail img {
+              right: -9550px !important;
+          }
+        }
+    </style>
+  </head>
+  <body class="cbp-spmenu-push">
+    <header>
+      <div class="header">
+        <div id="showLeft" class="left">
+          <img src="img/menu.png" onclick="ga('send', 'event', 'barra', 'click', 'hamburguesa');">
+        </div>
+        <a href="home.html">
+          <img src="img/CMRC-Logo-primario.png" onclick="ga('send', 'event', 'barra', 'click', 'home');">
+        </a>
+        <nav>
+          <a href="productos.html" onclick="ga('send', 'event', 'barra', 'click', 'productos');">Productos</a>
+          <a href="servicios.html" onclick="ga('send', 'event', 'barra', 'click', 'servicios');">Servicios</a>
+          <a href="partners.html" onclick="ga('send', 'event', 'barra', 'click', 'partners');">Partners</a>
+          <a href="contacto.html" onclick="ga('send', 'event', 'barra', 'click', 'contacto');">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <div id="cbp-spmenu-s1" class="menu cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left">
+      <nav>
+        <div>Menú</div>
+        <a href="productos.html" onclick="ga('send', 'event', 'menu movile', 'click', 'productos');">Productos</a>
+        <a href="servicios.html" onclick="ga('send', 'event', 'menu movile', 'click', 'servicios');">Servicios</a>
+        <a href="partners.html" onclick="ga('send', 'event', 'menu movile', 'click', 'partners');">Partners</a>
+        <a href="contacto.html" onclick="ga('send', 'event', 'menu movile', 'click', 'contacto');">Contacto</a>
+      </nav>
+    </div>
+    <div id="cont">
+      <div class="bkgnd_img bkgnd_LSretail">
+        <img src="img/banner_lightspeed.png" alt="punto de venta lightspeed">
+        <div class="txt_header">
+          <div>
+            <h1 style="padding: 0 15px 15px;">
+              Controla tus productos y servicios
+            </h1>
+            <p class="txt_justify">
+              Organiza tu inventario de una o varias sucursales en el mismo lugar, con la seguridad que iCloud te ofrece.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 tit_int">
+        <div class="txt_center margin-b-15">
+          <img src="img/LightspeedRetail_logo.png">
+        </div>
+        <!-- <div class="title">
+          Get the world's most powerful POS and eComerce solution
+        </div> -->
+      </div>
+      <div class="w-100 bkgnd_gray">
+        <div class="col-1" id="info_web">
+          <div class="topic w-100 topic-point">
+            <div class="col-4 btn-blue active" id="sell" onclick="ga('send', 'event', 'LSRetail', 'click', 'vende');">VENDE</div>
+            <div class="col-4 btn-blue" id="manage" onclick="ga('send', 'event', 'LSRetail', 'click', 'maneja');">MANEJA</div>
+            <div class="col-4 btn-blue" id="report" onclick="ga('send', 'event', 'LSRetail', 'click', 'reporta');">REPORTA</div>
+            <div class="col-4 btn-blue no-border" id="grow" onclick="ga('send', 'event', 'LSRetail', 'click', 'crece');">CRECE</div>
+          </div>
+          <div class="w-100 points">
+            <div id="sell-points">
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/buy_phone_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Ahorra tiempos de cobro
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Mejora tu eficiencia realizando transacciones, optimiza tiempos y crea una mejor experiencia en tu cliente.                   </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/tools_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Herramientas eficientes
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Garantizamos que nuestros clientes tengan el sistema de punto de venta  y  la solución de comercio electrónico más fiable del mercado.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/restaurant_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Ordenes especiales
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Puedes vender productos que no tienes en stock, haciendo ordenes especiales, tu cliente quedará satisfecho con tiempos de entrega.
+                  </div>
+                </div>
+              </div>
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/money_stats_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Conoce mejor a tu consumidor
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Crea perfiles de tus clientes, con información de contacto, preferencias de productos e historial de compras.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/cart_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Impuestos Personalizables
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Configura facilmente los impuestos para el total de tus productos, en automático se realizará el cargo.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/hardware_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Gift Cards
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Crea Gift cards, sin un cargo extra, crea lealtad con tus clientes.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="manage-points" class="hidden">
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/box_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Encuentra productos fácilmente
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Etiqueta productos por temporadas, colores, detalles, tallas y materiales.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/inventary_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Fácil Devolución
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Administra de mejor manera las devoluciones que te hagan los clientes, de una manera fácil realiza la gestión de vuelta a tu inventario y realiza el reembolso.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/buy_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Crea productos únicos de temporada
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Crea kits especiales y programarlos por temporalidad.
+                  </div>
+                </div>
+              </div>
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/clock_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Control de personal
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Accede a información de tus empleados, ventas y desempeño.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/superviser_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Promociones automatizadas
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Configura promociones en la fecha y hora determinados, así el descuento se aplicará automáticamente.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/loyalty_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Identifica cada pieza de tu inventario 
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    El sistema te brinda una clave de artículo para cada producto en tu inventario, te ayudará al momento de cobro y manejo de stock. 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="report-points" class="hidden">
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/graphic_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Análisis de operación
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Si deseas observar los números de ventas de hoy o de hace un año podrás verlos gracias a funciones multitarea que facilitan la toma de decisiones.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/hands_stats_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Comparte información
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Exporta reportes a pdf o a imágenes e imprimelo.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/inventary_report_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Información a la mano
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Ve todo lo que necesitas saber de tu negocio: artículos vendidos, total de ventas por periodos de tiempo y por categorías.
+                  </div>
+                </div>
+              </div>
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/inventary_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Inventario
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Administra los niveles de inventario de tus tiendas, toma las mejores decisiones dependiendo la venta de tus productos en sus respectivas temporadas.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/page_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Big data
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Conoce los hábitos de compra de tus clientes y mejora su experiencia con tus servicios personalizados.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/buy_pos.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Pagos
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Lleva una mejor administración financiera, controla y verifica montos ingresados en efectivo y pagos con tarjeta.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="grow-points" class="hidden">
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/hardware_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Ecommerce integrado
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    La plataforma te permite tener mayor presencia con clientes potenciales a distancia. 
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/world_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                    POS en tu bolsillo
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Administra tu negocio estés en donde estés gracias a la tecnología móvil.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/loyalty_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Experiencia
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Crea una experiencia extraordinaria brindando un servicio personalizado a tus clientes revisando sus preferencias.
+                  </div>
+                </div>
+              </div>
+              <div class="flex-movil">
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/money_team_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Expande
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Al ir creciendo en tu negocio puedes expandir tus sucursales e ir agregando las licencias a la función Multi-store.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/superviser_icon.png">
+                    </div>
+                    <div class="txt-info font-20">
+                      Empleados
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    Mantén un registro de la jornada laboral de tus empleados, complementa este servicio con integraciones adaptables a tu necesidad.
+                  </div>
+                </div>
+                <div class="col-3 padding-l-r-10 margin-t-20">
+                  <div class="item-info">
+                    <div class="icono margin-l-0">
+                      <img src="img/iconos/cart_buy_icon.png">
+                    </div>
+                    <div class="txt-info font-20 vertical-align">
+                      Visual
+                    </div>
+                  </div>
+                  <div class="w-100 txt_justify">
+                    El tener un iPad da un toque de elegancia a tu negocio ya que es inovador en el mercado.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1" id="info_movil">
+          <div class="box_info bkgnd_white2">
+            <div>
+              <div class="topic_mov" id="sell_m" onclick="ga('send', 'event', 'LSRetail', 'click', 'vende');">VENDE</div>
+              <div class="w-100" id="sell_m_info">
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/clock_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Ahorra tiempo de cobro
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/tools_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Administración eficiente
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/pos_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Órdenes especi
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/box_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Stock flexible
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/user_check_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Crea perfiles de clientes
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/hardware_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Configuración de impuestos
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/best_bussines_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Gift cards
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="topic_mov" id="manage_m" onclick="ga('send', 'event', 'LSRetail', 'click', 'maneja');">MANEJA</div>
+              <div class="w-100" id="manage_m_info">
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/box_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Encuentra fácil tus productos
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/hands_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Devoluciones rápidas
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/sunset_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Crea productos de temporada
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/users_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Maneja a tu equipo de trabajo
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/target_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Automatiza tus promociones
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/inventary_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Identifica todo en tu inventario
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="topic_mov" id="report_m" onclick="ga('send', 'event', 'LSRetail', 'click', 'reporta');">REPORTA</div>
+              <div class="w-100" id="report_m_info">
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/man_stats_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Reporte de análisis de operación
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/inventary_report_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Exporta tus reportes
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/graphic_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Reportes al instante
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/inventary_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Reporte de inventarios
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/inventary_report_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Big data
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/money_stats_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Reportes detallados de pagos
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="topic_mov" id="grow_m" onclick="ga('send', 'event', 'LSRetail', 'click', 'crece');">CRECE</div>
+              <div class="w-100" id="grow_m_info">
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/page_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    E-commerce integrado
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/cart_buy_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Tecnología móvil
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/user_learn_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Experiencia personalizada
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/expand_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Reduce espacio con iPads
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/users_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Mantén un registro de tus empleados
+                  </div>
+                </div>
+                <div class="item-info">
+                  <div class="icono margin-l-0">
+                    <img src="img/iconos/restaurant_icon.png">
+                  </div>
+                  <div class="txt-info font-20">
+                    Multi-tienda
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="two-btn">
+          <div class="btn inline-block margin-l-r-5">
+            VIEW DEMO
+          </div>
+          <div class="btn inline-block margin-l-r-5">
+            VER MÁS
+          </div>
+        </div> -->
+      </div>
+      
+      <!-- <div class="col-1 bkgnd_white">
+        <div class="col-3">
+          <div class="videoSmall" id="LS1">
+            <img src="img/play.png">
+          </div>
+          <div class="txt-videoSmall">
+            <span>Point of Sale</span><br>
+            Point of Sale
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="videoSmall" id="LS2">
+            <img src="img/play.png">
+          </div>
+          <div class="txt-videoSmall">
+            <span>Point of Sale</span><br>
+            Point of Sale
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="videoSmall" id="LS3">
+            <img src="img/play.png">
+          </div>
+          <div class="txt-videoSmall">
+            <span>Point of Sale</span><br>
+            Point of Sale
+          </div>
+        </div>
+      </div> -->
+      <div class="bkgnd_parts">
+        <div class="parts">
+          <img src="img/hardware-product-desktop.png" id="part1">
+          <img src="img/hardware-product-laptop.png" id="part2">
+          <img src="img/hardware-product-tablet.png" id="part3">
+          <img src="img/hardware-product-terminal.png" id="part4">
+          <div id="analytics">
+            <div class="s_circle"></div>
+            <hr>
+            <span>Analytics</span>
+          </div>
+          <div id="Ecommerce">
+            <div class="s_circle"></div>
+            <hr>
+            <span>Ecommerce</span>
+          </div>
+          <div id="Point">
+            <div class="s_circle"></div>
+            <hr>
+            <span>Point of Sale</span>
+          </div>
+          <div id="Payments">
+            <div class="s_circle"></div>
+            <hr>
+            <span>Payments</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-1 bkgnd_white">
+        <div class="col-3">
+          <div class="price">
+            <div>
+              Small
+            </div>
+            <div>
+              <span class="top">$</span><span class="big">1,068</span> / USD <br>
+              <span class="underline">Anualidad</span> <br>
+              1 Caja Registradora
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="price">
+            <div>
+              Medium
+            </div>
+            <div>
+              <span class="top">$</span><span class="big">1,788</span> / USD <br>
+              <span class="underline">Anualidad</span> <br>
+              2 Cajas Registradoras
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="price">
+            <div>
+              Large
+            </div>
+            <div>
+              <span class="top">$</span><span class="big">3,108</span> / USD <br>
+              <span class="underline">Anualidad</span> <br>
+              4 Cajas Registradoras
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="try">
+        <div class="col-1 padding-l-r-10">
+          <p class="inline-block">Para recibir una cotización:</p>
+          <a href="contacto.html" onclick="ga('send', 'event', 'LSRetail', 'click', 'contacto');">
+            <div class="btn inline-block">
+              Contáctanos
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="lightbox" id="v_LS1">
+      <img src="img/close.png" class="close">
+      <iframe id="if_LS1" src="http://play.vidyard.com/8Dgfc_JHVMzL7sP2_indHQ.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="lightbox" id="v_LS2">
+      <img src="img/close.png" class="close">
+      <iframe id="if_LS2" src="http://play.vidyard.com/IJBoRoQDYN2gsqS9uYxlug.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="lightbox" id="v_LS3">
+      <img src="img/close.png" class="close">
+      <iframe id="if_LS3" src="http://play.vidyard.com/IJBoRoQDYN2gsqS9uYxlug.html" allowtransparency="true" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <footer>
+      <div class="footer-1">
+        <nav>
+          <a href="productos.html" onclick="ga('send', 'event', 'footer', 'click', 'productos');">Productos</a>
+          <a href="servicios.html" onclick="ga('send', 'event', 'footer', 'click', 'servicios');">Servicios</a>
+          <a href="partners.html" onclick="ga('send', 'event', 'footer', 'click', 'partners');">Partners</a>
+          <a href="contacto.html" onclick="ga('send', 'event', 'footer', 'click', 'contacto');">Contacto</a>
+        </nav>
+        <div class="social">
+          <a href="https://www.facebook.com/cmrc.io/?fref=ts" target= "_blank" onclick="ga('send', 'event', 'footer', 'click', 'facebook');">
+            <img src="img/facebook_logo_white.png">
+          </a>
+          <a href="https://www.linkedin.com/company/10113107?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10113107%2Cidx%3A1-1-1%2CtarId%3A1465335891107%2Ctas%3Acmrc.IO" target= "_blank" onclick="ga('send', 'event', 'footer', 'click', 'linkedin');">
+            <img src="img/linkedin_logo_white.png"> 
+          </a>
+          <a href="https://vimeo.com/user52371251" target="_blank" onclick="ga('send', 'event', 'footer', 'click', 'vimeo');">
+            <img src="img/vimeo_logo_white.png">
+          </a>
+        </div>
+      </div>
+      <div class="footer-2">
+          Av. Amsterdam 173, int. 3 Hipódromo Condesa, Ciudad de México (55) 6389-0423 / (55) 6819-7071
+          <a href="avisodeprivacidad.html" class="right" onclick="ga('send', 'event', 'footer', 'click', 'aviso privacidad');">Aviso de privacidad</a>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script src="slideMenu/js/classie.js"></script>
+    <script type="text/javascript" src="js/script.js"></script> 
+  </body>
+</html>
